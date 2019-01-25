@@ -2,25 +2,126 @@
     margin: 0;
     padding: 0;
     border: 0;
+    font-family: 'Open Sans', sans-serif;
+
 }
 header{
     margin-top: 50px;
     margin-left: 10%;
     margin-right: 10%;
+    margin-bottom: 50px;
 }
 header section{
     display: inline-block;
     width: 49%;
     vertical-align: top;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 30px;
+    font-weight: 900;
+    color: #3a3a3a;
+    text-transform: uppercase;
     
 }
-header section p{
-    font-size: 0.9em;
-    font-family: 'Poppins', sans-serif;
-    color: #1a237e;
+
+header section img{
+    float: left;
+    vertical-align: middle;
 }
-header section p span{
-    color: #e91e63;
+.search-area {
+    position: relative;
+    z-index: 1;
+    float: right;
+    margin-top: 5%;
+ }
+    .search-area form {
+      position: relative;
+      z-index: 10;
+      width: 400;
+      height: 80;
+      margin: 0 50px; }
+      @media only screen and (min-width: 992px) and (max-width: 1199px) {
+        .search-area form {
+          width: 170px;
+          margin: 0 15px; } }
+      @media only screen and (min-width: 768px) and (max-width: 991px) {
+        .search-area form {
+          margin: 15px auto; } }
+      @media only screen and (max-width: 767px) {
+        .search-area form {
+          margin: 15px auto; } }
+      .search-area form input {
+        width: 100%;
+        height: 40px;
+        border-radius: 6px;
+        border: 1px solid #3762f0;
+        padding: 0 15px 0 50px;
+        font-size: 14px;
+        color: rgba(0, 0, 0, 0.35);
+        font-weight: 600;
+        -webkit-transition-duration: 500ms;
+        transition-duration: 500ms; }
+        .search-area form input:focus {
+          border: 1px solid rgba(0, 0, 0, 0.5); }
+        .search-area form button {
+        position: absolute;
+        width: 50px;
+        height: 40px;
+        background-color: transparent;
+        top: 0;
+        left: 0;
+        z-index: 10;
+        border: none;
+        text-align: center;
+        cursor: pointer;
+        outline: none; }
+
+nav{
+    padding-left: 25%;
+    overflow: hidden;
+    text-align: center;
+    width: 49%;
+}
+nav ul{
+    list-style: none;
+    display: inline-block;
+    background: #d7e0fc;
+    border-radius: 6px;
+
+
+}
+nav > ul > li {
+    float: left;
+
+}
+nav ul li a{
+    padding: 20px 40px;
+    display: block;/*si no ponemos display block el padding no funciona, solo funcionaria hacia los lados*/
+    color: #3762f0;
+    text-decoration: none;
+    transition: background-color .5s ease;
+    font-family: 'Varela Round', sans-serif;
+
+}
+nav ul li a:hover{
+    
+    background: #2c56df;
+    color: white;
+    z-index: 100;    
+    border-radius: 6px;
+}
+ul li ul{
+    display: none;
+    position: absolute;
+    min-width: 140px;
+
+}
+ul li:hover > ul{
+    display: block;
+    background-color: #d7e0fc;
+    z-index: 100;
+}
+ul li > ul li{
+    transition-duration: 3s;
 }
 #slide-wrap .slider{
     margin-top: 50px;
@@ -87,36 +188,69 @@ header section p span{
 
 
 .parent2{
+    width: 71%;
+    padding-left:14%;
+    padding-right: 14%; 
+    margin: 0;
+
+}
+.parent2 .contents{
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    width:30%;
+    border-radius: 5px;
+    border: 1px solid #3762f0;
+}
+.parent2 .contents  img{
+    width: 85%;
+    border-radius: 5px;
+    display: inline-block;
+
+}
+body > h2{
+    margin-top: 80px;
+    margin-bottom: 40px;
+    margin-left: 40%;
+    vertical-align: top;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 30px;
+    font-weight: 900;
+    color: #3a3a3a;
+    text-transform: uppercase;
+}
+
+.parent25 .arrowButton{
+    display: inline-block;
+    padding: 0;
+    width: 10%;
+}
+.parent25{
     padding-left:24%;
     padding-right: 24%; 
     margin: 0;
 
 }
-.parent2 .arrowButton{
-    display: inline-block;
-    padding: 0;
-    width: 8%;
-}
-.parent2 .arrowButton:first-child{
+.parent25 .arrowButton:first-child{
     margin-right: 2%;
 }
-.parent2 .arrowButton:last-child{
+.parent25 .arrowButton:last-child{
     margin-left: 2%;
 }
-.parent2 .arrowButton  img{
+.parent25 .arrowButton  img{
     width: 100%;
     display: inline-block;
     margin-bottom: 50%;
 }
-.parent2 .contents{
+.parent25 .contents2{
     display: inline-block;
     background-color: #eceff1;
     margin: 0;
-    width:19%;
+    width:30%;
     border-radius: 5px;
     align-items: center;
 }
-.parent2 .contents  img{
+.parent25 .contents2  img{
     width: 75%;
     border-radius: 5px;
     display: inline-block;

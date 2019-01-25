@@ -1,0 +1,188 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+header{
+    margin-top: 50px;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+header section{
+    display: inline-block;
+    width: 49%;
+    vertical-align: top;
+    
+}
+header section p{
+    font-size: 0.9em;
+    font-family: 'Poppins', sans-serif;
+    color: #1a237e;
+}
+header section p span{
+    color: #e91e63;
+}
+#slide-wrap .slider{
+    margin-top: 50px;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.parent{
+    background-color: #eceff1;
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    margin-left: 24%;
+    margin-right: 24%;
+}
+.parent .child-one{
+    width: 39%;
+    display: inline-block;
+}
+.parent .child-one figure {/**aqui decimos que del contenedor en el que esta solo ocupe el 50 */
+    margin-block-start: 0;
+    margin-block-end: 0;
+    margin-inline-start: 0;
+    margin-inline-end: 0;
+}
+.parent .child-one figure img{/**aqui decimos que del contenedor en el que esta solo ocupe el 50 */
+    width: 50%;
+    padding-left: 25%;
+}
+.parent .child-two{
+    width: 50%;/*cuando juntamos dos inline-blocs se crea una linea por parte del navegador que no se puede eliminar por eso quitamos un px*/
+    vertical-align: top;/*para que mande el contenido hacia arriba*/
+    display: inline-block;
+    font-family: 'Poppins', sans-serif;
+    font-size: 0.9em;
+}
+.parent .child-two a{
+    background-color: #e91e63 ;
+    color: white;
+    padding: 10px ;
+    border-radius:4px;
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: uppercase;
+
+}
+.parent .child-two a:hover{
+    background-color: #c51162 ;
+}
+.circle{
+    border-radius: 50%;
+    background-color: rgba(2, 133, 2, 0.726);
+    color: white;
+    padding: 20px;
+    display: block;
+    width: 70px;
+    height: 70px;
+    text-align: center;
+    margin-top: -70px;
+    margin-left: -70px;
+    letter-spacing: 1px;
+}
+
+
+.parent2{
+    padding-left:24%;
+    padding-right: 24%; 
+    margin: 0;
+
+}
+.parent2 .arrowButton{
+    display: inline-block;
+    padding: 0;
+    width: 8%;
+}
+.parent2 .arrowButton:first-child{
+    margin-right: 2%;
+}
+.parent2 .arrowButton:last-child{
+    margin-left: 2%;
+}
+.parent2 .arrowButton  img{
+    width: 100%;
+    display: inline-block;
+    margin-bottom: 50%;
+}
+.parent2 .contents{
+    display: inline-block;
+    background-color: #eceff1;
+    margin: 0;
+    width:19%;
+    border-radius: 5px;
+    align-items: center;
+}
+.parent2 .contents  img{
+    width: 75%;
+    border-radius: 5px;
+    display: inline-block;
+
+}
+.parent2 .contents h3,h4{
+    
+    align-items: center;
+}
+
+
+
+.parent3{
+    margin-left: 24%;
+    margin-right: 24%;
+    margin-top: 100px;
+}
+.parent3 .child-one{
+    background-color: #eceff1;
+    border-radius: 10px;
+    display: inline-block;
+    font-size: 0.8em;
+    width: 35%;
+    vertical-align: top;
+    margin-right: 5px;
+    padding: 3%;
+    padding-left: 10%;
+    height: 35%;
+}
+.parent3 .child-two{
+    background-color: #eceff1;
+    border-radius: 10px;
+    display: inline-block;
+    font-size: 0.8em;
+    width: 40%;
+    vertical-align: top;
+    margin-left: 5px;
+    padding: 3%;
+    padding-left: 5%;
+    height: 40%;
+}
+footer{
+    margin-top: 20px;
+}
+/**************************************************************/
+table{
+    width: 100%;
+    border: 3px solid skyblue;
+    border-bottom-color: blue;
+    border-right-color: blue;
+    border-collapse: collapse;
+    
+}
+table td{
+    border: 1px solid #000;
+    padding: 10px;
+}
+table tr:hover{
+    background: #ccc;
+}
+table td:hover{
+    background: #000;
+    color: #fff;
+}
+
+.fondoPlomo{
+    background-color: #cfd8dc; 
+}
+

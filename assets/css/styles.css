@@ -294,6 +294,27 @@ body > h2{
 }
 footer{
     margin-top: 20px;
+    background: #252525;
+    color: rgb(133, 130, 130);
+    padding: 50px 40px;
+    font-size: 90%;
+}
+footer li:hover{
+    color: white;
+}
+footer p{
+    display: inline-block;
+    width: 100%;
+    margin-bottom: 10px;
+    margin-left: 35px;
+}
+.social{
+    display: inline-block;
+    margin-left: 40%;
+    margin-top: 60px;
+}
+.social img{
+    margin: 0px 5px;
 }
 /**************************************************************/
 table{
